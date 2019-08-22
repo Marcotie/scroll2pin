@@ -1,0 +1,23 @@
+{
+    "name":"poop",
+    "version":"0.1",
+    "manifest_version":2,
+    "description":"shitty app I'm making",
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["js/content.js"],
+        "css": ["css/font.css","css/index.css"]
+      }
+    ],
+    "permissions":[
+        "contextMenus", 
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+        ],
+    "icons":{
+        "16":"images/pin.png",
+        "128":"images/pin.png"
+    }
+}

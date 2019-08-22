@@ -1,0 +1,27 @@
+#my-pin-box{
+    position: fixed;
+    top:50%;
+    right:0;
+    width:70px;
+    height:150px;
+}
+.icon-up, .icon-down{
+    font-size:40px;
+    width:60px;
+    cursor: pointer;
+    border:1px solid gray;
+    margin:10px 0;
+    padding: 0 0 0 8px;
+    opacity: 0.5;
+}
+.icon-up{
+    border-radius: 10px 10px 0 0;
+}
+.icon-down{
+    border-radius: 0 0 10px 10px;
+}
+.icon-up:hover, .icon-down:hover{
+    color: green;
+    border-color:green;
+    opacity: 1;
+}
