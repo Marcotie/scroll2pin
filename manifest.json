@@ -1,12 +1,12 @@
 {
-    "name":"poop",
+    "name":"scroll2pin",
     "version":"0.1",
     "manifest_version":2,
-    "description":"shitty app I'm making",
+    "description":"scroll to pin",
     "content_scripts": [
       {
         "matches": ["https://*/*", "http://*/*"],
-        "js": ["js/content.js"],
+        "js": ["js/jquery-2.1.3.min.js","js/background.js"],
         "css": ["css/font.css","css/index.css"]
       }
     ],
