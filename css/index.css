@@ -7,13 +7,12 @@
 }
 .icon-up, .icon-down{
     font-size:40px;
-    width:60px;
     cursor: pointer;
     border:1px solid gray;
     margin:10px 0;
-    padding: 0 0 0 8px;
     opacity: 0.5;
     box-shadow: 0 0 5px #fff;
+    text-align: center;
 }
 .icon-up{
     border-radius: 10px 10px 0 0;
