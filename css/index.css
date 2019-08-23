@@ -13,6 +13,7 @@
     margin:10px 0;
     padding: 0 0 0 8px;
     opacity: 0.5;
+    box-shadow: 0 0 5px #fff;
 }
 .icon-up{
     border-radius: 10px 10px 0 0;
@@ -24,4 +25,27 @@
     color: green;
     border-color:green;
     opacity: 1;
+}
+#pin{
+    font-size:25px;
+    cursor: pointer;
+}
+.icon-pin-up:hover{
+    color:green;
+}
+
+#delete{
+    cursor: pointer;
+    display: none;
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.5;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 0 0 0 4px;
+}
+#delete:hover{
+    color:green;
 }

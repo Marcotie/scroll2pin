@@ -18,16 +18,15 @@
 .icon-up:before {
   content: "\e61c";
 }
+.icon-down:before {
+  content: "\e6b2";
+}
 
-.icon-pin_up:before {
+
+.icon-pin-up:before {
   content: "\e6ae";
 }
 
 .icon-pin-down:before {
   content: "\e6b1";
 }
-
-.icon-down:before {
-  content: "\e6b2";
-}
-
